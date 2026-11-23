@@ -15,7 +15,7 @@ QT_QPA_PLATFORM_PLUGIN_PATH="%cd%\\.pixi\\envs\\default\\Library\\plugins\\platf
 # and we don't rely on any particular API or ABI for them to be stable.
 7zip = ">=23.1,<24"
 colcon-cmake = ">=0.2.28,<0.3"
-colcon-core = ">=0.17.1,<0.18"
+colcon-core = "==0.21.3" # pin colcon-core as most other versions break the output formatting during the build process
 colcon-defaults = ">=0.2.8,<0.3"
 colcon-library-path = ">=0.2.1,<0.3"
 colcon-metadata = ">=0.2.5,<0.3"
